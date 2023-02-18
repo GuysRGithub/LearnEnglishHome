@@ -34,23 +34,14 @@ import nb from '../assets/images/nb.png';
 import skype from '../assets/images/skype.png';
 import spotify from '../assets/images/spotify.png';
 
-import diaryRecent from '../assets/images/diary_recent.png';
-import diaryCalendar from '../assets/images/diary_calendar.png';
-import diaryDarkMode from '../assets/images/diary_dark_mode.png';
-import diaryEditor from '../assets/images/diary_editor.png';
-import diaryEmoji from '../assets/images/diary_emoji.png';
-import diaryImageEditor from '../assets/images/diary_image_editor.png';
-import diaryList from '../assets/images/diary_list.png';
-import diaryView from '../assets/images/diary_view.png';
-
-import shotAlbum from '../assets/images/shot_album.png';
-import shotArtist from '../assets/images/shot_artist.png';
-import shotDarkTheme from '../assets/images/shot_dark_theme.png';
-import shotDetailPlaylist from '../assets/images/shot_detail_playlist.png';
+import shotCustomize from '../assets/images/shot_customize.png';
+import shotWallpaperPreview from '../assets/images/shot_wallpaper_preview.png';
+import shotStory from '../assets/images/shot_story.png';
+import shotLearnWallpaper from '../assets/images/shot_learn_wallpaper.png';
 import shotHome from '../assets/images/shot_home.png';
-import shotMusic from '../assets/images/shot_music.png';
-import shotPlaylist from '../assets/images/shot_playlist.png';
-import shotSchedule from '../assets/images/shot_schedule.png';
+import shotQuickLearn from '../assets/images/shot_quick_learn.png';
+import shotStyle from '../assets/images/shot_style.png';
+import shotWallpaper from '../assets/images/shot_wallpaper.png';
 
 export default {
   email,
@@ -85,20 +76,12 @@ export default {
   nb,
   skype,
   spotify,
-  diaryRecent,
-  diaryCalendar,
-  diaryDarkMode,
-  diaryEmoji,
-  diaryEditor,
-  diaryImageEditor,
-  diaryList,
-  diaryView,
-  shotAlbum,
-  shotArtist,
-  shotDarkTheme,
-  shotDetailPlaylist,
+  shotCustomize,
+  shotWallpaperPreview,
+  shotStory,
+  shotLearnWallpaper,
   shotHome,
-  shotMusic,
-  shotPlaylist,
-  shotSchedule
+  shotQuickLearn,
+  shotStyle,
+  shotWallpaper
 };
