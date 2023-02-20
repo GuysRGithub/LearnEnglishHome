@@ -10,36 +10,36 @@ const Skill = () => {
 
     const skills = [
         {
-            name: "Write better,\nexpress more",
-            description: "Explore rich features editor to help you write diaries with more fun. Write down your thought and moments to enjoy later",
+            name: "Listen more,\nEnjoy better",
+            description: "Explore rich features music playerto help you play music as whatever way you want",
             bgColor: "#edf2f8",
             icon:
                 (<span className='app__flex bg-gradient-to-l rounded-full p-2 h-24 w-24 text-transparent from-indigo-600 to-blue-600'>
                     <span className="material-icons text-white text-4xl">
-                        history_edu
+                        headset
                     </span>
                 </span>)
 
         },
         {
-            name: "Track your \nprogress",
-            description: "Track your diaries with a timeline. Keep track of your mood and events when express your feeling.",
+            name: "Track your \nfavorites",
+            description: "Track your songs with a top played list. Keep track of your styles and favorites song with ease.",
             bgColor: "#edf2f8",
             icon:
                 (<span className='app__flex bg-gradient-to-l rounded-full p-2 h-24 w-24 text-transparent to-indigo-700 from-blue-800'>
                     <span className="material-icons text-white text-4xl">
-                        calendar_month
+                        favorite
                     </span>
                 </span>)
         },
         {
             name: "Enjoying review \nyour moments",
-            description: "Multiple diary view mode and list view for you to review and enjoy reading your diaries.",
+            description: "Enjoy your moments with some peice of music that you like the most",
             bgColor: "#edf2f8",
             icon:
                 (<span className='app__flex bg-gradient-to-b rounded-full p-2 h-24 w-24 text-transparent from-violet-800 to-indigo-800'>
                     <span className="material-icons text-white text-4xl">
-                        list_alt
+                        library_music
                     </span>
                 </span>)
         },
@@ -62,7 +62,7 @@ const Skill = () => {
                         </motion.div>
                     ))}
                 </motion.div>
-                <a href={"https://play.google.com/store/apps/details?id=com.guysrobot.musicapplication"} >
+                <a href={"https://play.google.com/store/apps/details?id=com.bpguysrobot.englishvocabulary"} >
                     <div className="mx-auto flex w-48 h-14 text-sm font-black cursor-pointer bg-indigo-600 hover:bg-indigo-800 text-white rounded-lg items-center justify-center mt-16">
                         Try For Free
                     </div>
